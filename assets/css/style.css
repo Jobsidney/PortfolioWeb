@@ -11,11 +11,13 @@ body{
     color:#9599b1;
     display: flex;
     justify-content: end;
-    padding: 2vh;
+    padding: 3vh;
     font-size: xx-large;
+    
 }
 li{
-    margin-left: 3vw;
+    margin-left: 4vw;
+    margin-right: 1vw;
 }
 .description{
     background-image: url(../images/piano.webp);
@@ -29,23 +31,33 @@ li{
     flex-direction: row;
     justify-content: space-between;
 }
-.description>#name{
+.description>div>#name{
     font-size: 80px;
     display: flex;
     flex-direction: column;
     
     
 }
+
 .proDescr{
     max-width: 400px;
     margin-left: 7vw;
 }
-.title{
-    font-size: large;
+.proDescr>.title{
+    font-size: xx-large;
     margin-bottom: 4%;
     text-decoration: underline;
     font-family: Kaisei Opti;
     color: white;
+    font-weight: 700;
+    opacity: 0.5;
+}
+.title{
+    font-size: xx-large;
+    margin-bottom: 4%;
+    text-decoration: underline;
+    font-family: Kaisei Opti;
+    color: yellow;
     font-weight: 700;
 }
 .titles{
@@ -65,7 +77,7 @@ li{
     color: yellow;
     font-weight: 800;
     font-size: large;
-    margin-top: 1vh;
+    margin-top: 5vh;
     text-align: center;
     padding-top: 2%;
 }
@@ -97,7 +109,7 @@ li{
 .yellow{
     height: 300px;
     width:250px;
-    background-color: yellow;
+    background-color: rgb(199, 199, 8);
     margin-left: 30px;
     border-radius: 5px;
     padding: 10px;
@@ -105,7 +117,7 @@ li{
     padding-bottom: 0;
     font-size: xx-large;
     font-weight: 800;
-    color: white;
+    color: rgb(247, 228, 228);
 }
 .greyy{
     background-color: blue;
@@ -118,7 +130,8 @@ li{
     text-align:center;
     font-size: xx-large;
     font-weight: 800;
-    color:white
+    color:white;
+    
 }
 #works{
     margin-top: 5%;
@@ -144,3 +157,19 @@ li{
 .titles,.words{
     max-width: 700px;
 }
+.fa {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: x-large;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }
+.fa:hover {
+    opacity: 0.7;
+    color: red;
+    font-size: 45px;
+    transition: 200ms;
+
+  }
