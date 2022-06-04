@@ -19,7 +19,7 @@ li{
 }
 .description{
     padding: 10%;
-    height: 500px;
+    height: 50%;
     color: white;
     display: flex;
     flex-direction: row;
@@ -62,7 +62,42 @@ li{
     margin-top: 1vh;
 }
 #My-Services{
+    padding-top: 5%;
     background-color: #242534;
     color: white;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15%;
+    
 
+}
+.doubleWords{
+    display: inherit;
+    justify-content: space-between;
+}
+.doubleWords>.first-word{
+    max-width: 30%;
+    margin-left: 5%;
+    font-size: x-large;
+}
+.floatCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -120px;
+}
+.yellow{
+    height: 300px;
+    width:200px;
+    background-color: yellow;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+.greyy{
+    background-color: blue;
+    height: 300px;
+    width:200px;
+    background-color: #46495F;
+    margin-left: 50px;
+    border-radius: 5px;
 }
