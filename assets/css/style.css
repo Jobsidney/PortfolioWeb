@@ -41,6 +41,8 @@ li{
     margin-bottom: 4%;
     text-decoration: underline;
     font-family: Kaisei Opti;
+    color: white;
+    font-weight: 700;
 }
 .titles{
     margin-top: 2vh;
@@ -88,16 +90,36 @@ li{
 }
 .yellow{
     height: 300px;
-    width:200px;
+    width:250px;
     background-color: yellow;
     margin-left: 30px;
     border-radius: 5px;
+    padding: 10px;
 }
 .greyy{
     background-color: blue;
     height: 300px;
-    width:200px;
+    width:250px;
     background-color: #46495F;
     margin-left: 50px;
     border-radius: 5px;
+    padding: 10px;
+}
+#works{
+    margin-top: 5%;
+}
+
+.normalDecr{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.normalDecr>div>img{
+    width: 40vw;
+    border-radius: 2px;
+
+}
+.normalDecr .words{
+    font-size: x-large;
 }
