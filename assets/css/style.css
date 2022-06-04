@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color: #333647;
+}
+#Navigation>nav>ul{
+    list-style: none;
+    color:#9599b1;
+    display: flex;
+    justify-content: end;
+    padding: 2vh;
+    font-size: xx-large;
+}
+li{
+    margin-left: 3vw;
+}
+.description{
+    padding: 10%;
+    height: 500px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.description>#name{
+    font-size: 80px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.proDescr{
+    max-width: 400px;
+    margin-left: 7vw;
+}
+.title{
+    font-size: large;
+    margin-bottom: 4%;
+    text-decoration: underline;
+    font-family: Kaisei Opti;
+}
+.titles{
+    margin-top: 2vh;
+    font-size: xxx-large;
+}
+.words{
+    margin-top: 3vh;
+    font-size: larger;
+
+}
+#btnStory{
+    border: 1px solid yellow;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    color: yellow;
+    font-weight: 800;
+    font-size: large;
+    margin-top: 1vh;
+}
+#My-Services{
+    background-color: #242534;
+    color: white;
+
+}
