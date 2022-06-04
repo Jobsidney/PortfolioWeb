@@ -18,6 +18,10 @@ li{
     margin-left: 3vw;
 }
 .description{
+    background-image: url(../images/piano.webp);
+    background-repeat: no-repeat;
+    background-blend-mode:calc();
+    background-size: cover;
     padding: 10%;
     height: 50%;
     color: white;
@@ -62,6 +66,8 @@ li{
     font-weight: 800;
     font-size: large;
     margin-top: 1vh;
+    text-align: center;
+    padding-top: 2%;
 }
 #My-Services{
     padding-top: 5%;
@@ -95,6 +101,11 @@ li{
     margin-left: 30px;
     border-radius: 5px;
     padding: 10px;
+    text-align:center;
+    padding-bottom: 0;
+    font-size: xx-large;
+    font-weight: 800;
+    color: white;
 }
 .greyy{
     background-color: blue;
@@ -104,6 +115,10 @@ li{
     margin-left: 50px;
     border-radius: 5px;
     padding: 10px;
+    text-align:center;
+    font-size: xx-large;
+    font-weight: 800;
+    color:white
 }
 #works{
     margin-top: 5%;
@@ -113,13 +128,19 @@ li{
     color: white;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    margin-left: 1%;
+    justify-content: center;
 }
 .normalDecr>div>img{
     width: 40vw;
     border-radius: 2px;
+    max-width: 400px;
 
 }
 .normalDecr .words{
     font-size: x-large;
+    max-width: 700px;
+}
+.titles,.words{
+    max-width: 700px;
 }
