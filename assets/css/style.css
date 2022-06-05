@@ -143,11 +143,25 @@ li{
     flex-direction: row;
     margin-left: 1%;
     justify-content: center;
+    margin-top: 7%;
 }
 .normalDecr>div>img{
+
+    border-radius: 5px;
     width: 40vw;
-    border-radius: 2px;
-    max-width: 400px;
+    min-width: 400px;
+    border-radius: 5px;
+    justify-content: space-between;
+    padding-left: 4vw;
+
+}
+#webImg{
+    border-radius: 10px;
+    width: 40vw;
+    min-width: 400px;
+    border-radius: 5px;
+    padding-right: 3vw;
+    padding-left: 0;
 
 }
 .normalDecr .words{
