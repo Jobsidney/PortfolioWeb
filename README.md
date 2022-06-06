@@ -10,12 +10,12 @@ Here is a working demonstration of this Web page: https://jobsidney.github.io/Po
 <br  />
 
 When you visit the site, this is the view:
-<img src="./assets/images/takeTest.png">  
+<img src="./assets/images/landing.png">  
 
 <br  />
-You can see some of my well documentend projects.
+You can see some of my well documentend projects and area of specialization.
 Example:
-<img src="./assets/images/submit.png">
+<img src="./assets/images/skills.png">
 <br  />
 
 ## [Features](https://jobsidney.github.io/PortfolioWeb/)
