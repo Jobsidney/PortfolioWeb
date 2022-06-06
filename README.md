@@ -3,7 +3,6 @@
 ## DESCRIPTION
 This personal portfolio showcases my personal proffetional details including skills and how to contact me at any time.
  example:
-<img src="">
 <br  />
 ## Site:
 Here is a working demonstration of this Web page: https://jobsidney.github.io/PortfolioWeb/
@@ -28,7 +27,7 @@ Example:
 - Responsive to variety of devices like mobile,tablet and PC
 
 
-## [InstallationInstructions](https://jobsidney.github.io/Quiz-Board/) 
+## [InstallationInstructions](https://jobsidney.github.io/PortfolioWeb/) 
 Click on the provided link that will direct you to the website
 #### requirements:
 - chrome browser/any other browser
